@@ -8,6 +8,12 @@
         "accent2": "#0072ff"
       }
     },
+    "gold": {
+      "sass": {
+        "accent1": "#f8cc80",
+        "accent2": "#c89f58"
+      }
+    },    
     "green": {
       "sass": {
         "accent1": "#12db5d",
