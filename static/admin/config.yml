@@ -24,6 +24,7 @@ collections:
             hint: The palette of the theme.
             options:
               - blue
+              - gold
               - green
               - navy
               - violet
