@@ -18,6 +18,10 @@ metadata:
       images:
         small: images/demo-256x192.png
         large: images/demo-1024x768.png
+    gold:
+      images:
+        small: images/demo-256x192.png
+        large: images/demo-1024x768.png        
     green:
       images:
         small: images/demo-256x192.png
@@ -51,6 +55,7 @@ models:
         description: The palette of the theme.
         options:
           - blue
+          - gold
           - green
           - navy
           - violet
@@ -63,6 +68,9 @@ models:
           - type: palette
             name: blue
             label: Blue
+          - type: palette
+            name: gold
+            label: Gold            
           - type: palette
             name: green
             label: Green
