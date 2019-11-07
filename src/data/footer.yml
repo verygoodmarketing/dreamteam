@@ -1,6 +1,6 @@
-content: '&copy; Stackbit-Libris. All rights reserved.'
+content: ''
 links:
-  - text: Made with Stackbit
-    url: 'https://www.stackbit.com'
-    new_window: true
-has_social: true
+  - new_window: false
+    text: Daystar Church
+    url: 'https://daystarchurch.tv'
+has_social: false
