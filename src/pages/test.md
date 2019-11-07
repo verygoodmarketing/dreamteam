@@ -1,5 +1,0 @@
----
-title: test
-template: docs
----
-
