@@ -14,17 +14,17 @@ sections:
     featureslist:
       - actions:
           - label: Join a Team
-            url: docs/index.html
+            url: /good-hope/
         content: 'View openings and opportunities at the Good Hope, AL campus.'
         title: Good Hope
       - actions:
           - label: Join a Team
-            url: blog/index.html
+            url: /hartselle/
         content: 'View openings and opportunities at the Hartselle, AL campus.'
         title: Hartselle
       - actions:
           - label: Join a Team
-            url: /style-guide.html
+            url: /madison/
         content: 'View openings and opportunities at the Madison, AL campus.'
         title: Madison
     section_id: features
