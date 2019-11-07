@@ -8,8 +8,8 @@ menus:
     title: ''
     weight: ''
   main:
-    title: ''
-    weight: ''
+    title: Terms of Use
+    weight: -1
 template: overview
 ---
 
