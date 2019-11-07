@@ -31,8 +31,8 @@ sections:
     type: featuresblock
 menus:
   main:
-    title: Home
-    weight: 1
+    title: ''
+    weight: 0
 template: home
 ---
 
