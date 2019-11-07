@@ -8,4 +8,4 @@ menus:
     weight: 20
 template: page
 ---
-Hartselle Campus
+<a href="<your-form-URL>" data-open-in-church-center-modal="true">Daystar Kids</a>
