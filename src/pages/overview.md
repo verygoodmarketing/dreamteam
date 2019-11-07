@@ -14,10 +14,10 @@ sections:
 menus:
   layouts:
     title: Overview
-    weight: 1
+    weight: ''
   main:
     title: Overview
-    weight: 6
+    weight: ''
 template: overview
 ---
 
