@@ -9,7 +9,7 @@ menus:
     weight: ''
   main:
     title: Terms of Use
-    weight: -1
+    weight: -2
 template: overview
 ---
 
