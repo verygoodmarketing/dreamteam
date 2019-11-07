@@ -10,14 +10,16 @@ export default class Menu extends React.Component {
               {_.map(_.get(this.props, 'menu'), (item, item_idx) => {
                   let menu = _.get(item, 'items');
                   let page = _.get(this.props, 'page');
+                  if(item_idx && item_idx >= 0){
                   return (
-                  <li key={item_idx} className={classNames('menu-item', {'has-children': _.size(_.get(item, 'items')) > 0}, {'current': _.get(this.props, 'page.url') === _.get(item, 'url')})}>
-                    <Link to={(_.get(item, 'url').startsWith('#') ? _.get(item, 'url') : safePrefix(_.get(item, 'url')))}>{_.get(item, 'title')}</Link>
-                    {(_.size(_.get(item, 'items')) > 0) && 
-                      <Menu {...this.props} menu={menu} menu_class={'submenu'} page={page} />
-                    }
-                  </li>
+                    <li key={item_idx} className={classNames('menu-item', {'has-children': _.size(_.get(item, 'items')) > 0}, {'current': _.get(this.props, 'page.url') === _.get(item, 'url')})}>
+                        <Link to={(_.get(item, 'url').startsWith('#') ? _.get(item, 'url') : safePrefix(_.get(item, 'url')))}>{_.get(item, 'title')}</Link>
+                        {(_.size(_.get(item, 'items')) > 0) && 
+                        <Menu {...this.props} menu={menu} menu_class={'submenu'} page={page} />
+                        }
+                    </li>
                   )
+                }
               })}
             </ul>
         );
