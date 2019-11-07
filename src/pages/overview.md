@@ -9,7 +9,7 @@ menus:
     weight: ''
   main:
     title: Overview
-    weight: -2
+    weight: 0
 template: overview
 ---
 
