@@ -32,7 +32,7 @@ sections:
 menus:
   main:
     title: ''
-    weight: 0
+    weight: 10
 template: home
 ---
 
