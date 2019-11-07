@@ -15,12 +15,14 @@
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  position: relative;
 }
 
 .site-branding {
   -ms-flex: 0 1 auto;
   -webkit-flex: 0 1 auto;
   flex: 0 1 auto;
+  position: absolute;
 
   a {
     border: 0;
@@ -41,7 +43,7 @@
   margin: 0;
 
   img {
-    max-height: 36px;
+    max-height: 66px;
   }
 }
 
