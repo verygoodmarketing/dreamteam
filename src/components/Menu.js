@@ -13,6 +13,7 @@ export default class Menu extends React.Component {
                   if(item_idx && item_idx >= 0){
                   return (
                     <li key={item_idx} className={classNames('menu-item', {'has-children': _.size(_.get(item, 'items')) > 0}, {'current': _.get(this.props, 'page.url') === _.get(item, 'url')})}>
+                        {item_idx}
                         <Link to={(_.get(item, 'url').startsWith('#') ? _.get(item, 'url') : safePrefix(_.get(item, 'url')))}>{_.get(item, 'title')}</Link>
                         {(_.size(_.get(item, 'items')) > 0) && 
                         <Menu {...this.props} menu={menu} menu_class={'submenu'} page={page} />
