@@ -8,7 +8,7 @@ sections:
       Thank you for your interest in joining!
     image: images/5.jpg
     section_id: hero
-    title: Dreamteam Registration
+    title: Dream Team Registration
     type: heroblock
   - component: FeaturesBlock
     featureslist:
