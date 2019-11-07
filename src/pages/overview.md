@@ -1,5 +1,5 @@
 ---
-title: Terms of Use
+title: Overview
 subtitle: ''
 img_path: images/5.jpg
 sections: []
@@ -8,7 +8,7 @@ menus:
     title: ''
     weight: ''
   main:
-    title: Terms of Use
+    title: Overview
     weight: -2
 template: overview
 ---
