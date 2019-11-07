@@ -4,8 +4,8 @@ subtitle: ''
 img_path: images/5.jpg
 menus:
   main:
-    title: a
-    weight: ''
+    title: Blog
+    weight: -1
 template: blog
 ---
 
