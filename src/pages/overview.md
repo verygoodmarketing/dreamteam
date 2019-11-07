@@ -1,22 +1,14 @@
 ---
-title: Overview
-subtitle: An optional subtitle
+title: Terms of Use
+subtitle: ''
 img_path: images/5.jpg
-sections:
-  - actions:
-      - label: Get Started
-        url: /docs/getting-started/index.html
-    component: CtaBlock
-    section_id: cta
-    title: The Title of The Call to Action Block
-    subtitle: This is an optional description for the call to action block.
-    type: ctablock
+sections: []
 menus:
   layouts:
-    title: Overview
+    title: ''
     weight: ''
   main:
-    title: Overview
+    title: ''
     weight: ''
 template: overview
 ---
